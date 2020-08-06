@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(247, 218, 238);
+}
+.div{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: flex;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    left: 200px;
+    
+}
+.logo>img{
+    position: absolute;
+
+    top: 10px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;   
+}
+.h_searchbar>input{
+    width: 430px;
+    height: 35px;
+    font-size: 20px;
+    padding: 0px 20px;
+    border-radius: 99px;
+    background: white;
+    outline: transparent;
+    border: 1px solid rgb(216, 214, 214);
+    margin-left: 400px;
+    margin-top: 20px;
+
+
+}
+.h_searchbar>input:hover{
+    border: 1px solid rgb(177, 177, 177);
+
+}
+.h_searchbar>a>i{
+    display: flex;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 29px;
+    color: black;
+
+}
+.h_menubar{
+    display: flex;
+    position: absolute;
+}
+.h_menubar ul{
+    list-style: none;
+    display: flex;
+    height: 80px;
+    width: 400px;
+    align-items: center;
+    align-content: flex-end;
+    left: 860px;
+    position: absolute;
+}
+.h_menubar ul li a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    transition: .2s all;
+
+}
+.h_menubar ul li a:hover{
+    color: rgba(75, 75, 75, 54);
+}
+.f_box{
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    left: 170px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    box-shadow: 0 0 10px 2px;
+    border-radius: 25px;
+    background-image: linear-gradient( to bottom right, rgb(84, 147, 230) 300px, rgb(41, 41, 112));
+}
+.tv{
+    position: absolute;
+}
+.tv>img{
+    width: 500px;
+    height: 400px;
+    margin-right: 50px;
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.price{
+    position: absolute;
+    right: 550px;
+    top: 200px;
+    width: 400px;
+    
+}
+.price>p{
+    font-size: 35px;
+}
+.price>h2{
+    color: rgb(255, 0, 0);
+    position: relative;
+    left: 100px;
+}
+.price>a>button{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 140px;
+    top: 80px;
+    outline: none;
+    border: transparent;
+    border-radius: 99px;
+    outline: red;
+    color: white;
+    background-color: rgb(182, 59, 80);
+}
+.price>a>button:hover{
+    background-color: rgb(139, 16, 36);
+}
+.catagories{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    align-content: center;
+
+}
+.catagories>p{
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(235, 176, 142);
+}
+.shoe{
+    height: 150px;
+    width: 300px;
+    background-image: linear-gradient(to left bottom, rgb(255, 60, 0), rgb(11, 243, 231));
+    margin-right: 20px;
+    margin-left: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+.shoe_img>img{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    margin-left: 05px;
+    margin-top: -50px;
+}
+.bag{
+    height: 150px;
+    width: 300px;
+    background-image: linear-gradient(to left bottom, rgb(146, 215, 247), rgb(250, 1, 1));
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+.bag_img>img{
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -60px;
+}
+.watch{
+    height: 150px;
+    width: 300px;
+    background-image: linear-gradient(to left bottom, rgb(255, 53, 255), rgb(110, 106, 106));
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+.watch_img>img{
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -60px;
+}
+.catagories>a{
+    text-decoration: none;
+}
+.p,.b,.w{
+    font-size: 30px;
+    color: white;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.see>P{
+    position: absolute;
+    left: 1040px;
+    top: 230px;
+    font-size: 30px;
+}
+.see>p>a{
+    text-decoration: none;
+    color: rgb(52, 52, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.see>p>a:hover{
+    text-decoration: underline;
+    color: rgb(52, 56, 109);
+}
+.C_watch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 250px;
+}
+.C_watch>p{
+    font-size: 40px;
+    color: rgb(223, 136, 136);
+    top: 920px;
+    position: absolute;
+    left: 90px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.watch2,.watch3,.watch4,.watch1,img{
+    width: 150px;
+    height: 120px;
+}
+.watch2,.watch3,.watch4,.watch1{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 200px;
+    background-image: linear-gradient(to right top, rgb(58, 125, 151) , rgb(74, 74, 85));
+    margin-left: 20px;
+    margin-top: 50px;
+    align-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: rgb(18, 19, 19) 0 0 10px 1px;
+    
+}
+.watch1{
+    margin-left: 200px;
+}
+.watch1>button{
+    height: 30px;
+    width: 80px;
+    box-shadow: 0 0 10px 1px;
+}
+.watch2>button{
+    height: 30px;
+    width: 80px;
+    box-shadow: 0 0 10px 1px;
+}
+.watch3>button{
+    height: 30px;
+    width: 80px;
+    box-shadow: 0 0 10px 1px;
+}
+.watch4>button{
+    height: 30px;
+    width: 80px;
+    box-shadow: 0 0 10px 1px;
+}
+.w_see>a{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(109, 104, 109);
+    top: 260px;
+    left: 950px;
+    font-size: 30px;
+    display: inline;
+}
+.w_see>a:hover{
+    text-decoration: underline;
+}
+
+
+.C_bag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 400px;
+}
+.C_bag>p{
+    font-size: 40px;
+    color: rgb(223, 136, 136);
+    top: 1300px;
+    position: absolute;
+    left: 90px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.bag2,.bag3,.bag4,.bag1,img{
+    width: 150px;
+    height: 120px;
+}
+.bag2,.bag3,.bag4,.bag1{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 200px;
+    background-image: linear-gradient(to right top, rgb(58, 125, 151) , rgb(74, 74, 85));
+    margin-left: 20px;
+    margin-top: 140px;
+    align-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: rgb(18, 19, 19) 0 0 10px 1px;
+    
+}
+.bag1{
+    margin-left: 200px;
+}
+.b_see>a{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(109, 104, 109);
+    top: 250px;
+    left: 950px;
+    font-size: 30px;
+    
+}
+.b_see>a:hover{
+    text-decoration: underline;
+}
+.bag1>button{
+    height: 30px;
+    width: 80px;
+    box-shadow: 0 0 10px 1px;
+}
+.bag2>button{
+    height: 30px;
+    width: 80px;
+    box-shadow: 0 0 10px 1px;
+}
+.bag3>button{
+    height: 30px;
+    width: 80px;
+    box-shadow: 0 0 10px 1px;
+}
+.bag4>button{
+    height: 30px;
+    width: 80px;
+    box-shadow: 0 0 10px 1px;
+}
